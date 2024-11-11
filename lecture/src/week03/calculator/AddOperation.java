@@ -1,4 +1,8 @@
 package week03.calculator;
 
-public class AddOperation {
+public class AddOperation extends AbstractOperation {
+    @Override
+    public double operate(int firstNum, int secondNum) {
+        return firstNum + secondNum;
+    }
 }
